@@ -1,0 +1,32 @@
+# OS & Editors
+.DS_Store
+.idea/
+.vscode/
+
+# Build
+build/
+out/
+.cache/
+
+# Coverage & Reports
+coverage/
+.nyc_output/
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment
+.env
+.env.production
+.env.development
+*.local
+
+# Lock
+pnpm-lock.yaml
+
+# Generated
+.eslintcache
+
+# HTML
+**/*.html

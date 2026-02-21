@@ -1,0 +1,31 @@
+{
+    "name": "coding-challenges",
+    "version": "0.1.0",
+    "description": "Practical solutions to coding challenges and interview-style problems in JavaScript/TypeScript, with clean code, edge cases, and brief notes on approach.",
+    "type": "module",
+    "engines": {
+        "node": ">=24.11.1"
+    },
+    "scripts": {
+        "start": "node src/remove-duplicates.ts",
+        "verify": "prettier --write . && eslint . --ext .ts && pnpm outdated && pnpm audit"
+    },
+    "devDependencies": {
+        "@eslint/js": "10.0.1",
+        "@types/node": "25.3.0",
+        "eslint-config-prettier": "10.1.8",
+        "eslint-plugin-import": "2.32.0",
+        "eslint-plugin-jest": "29.15.0",
+        "eslint-plugin-n": "17.24.0",
+        "eslint-plugin-regexp": "3.0.0",
+        "eslint-plugin-security": "4.0.0",
+        "eslint-plugin-unicorn": "63.0.0",
+        "globals": "17.3.0",
+        "jiti": "2.6.1",
+        "prettier": "3.8.1",
+        "ts-node": "10.9.2",
+        "typescript": "5.9.3",
+        "typescript-eslint": "8.56.0"
+    },
+    "author": "Maxim Semukhin <hireme@maxsemu.com>"
+}
